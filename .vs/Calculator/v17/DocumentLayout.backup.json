@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a2685\\source\\repos\\Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|c:\\users\\a2685\\source\\repos\\calculator\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|c:\\users\\a2685\\source\\repos\\calculator\\calculator\\model\\calcula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|solutionrelative:calculator\\model\\calcula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|c:\\users\\a2685\\source\\repos\\calculator\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|c:\\users\\a2685\\source\\repos\\calculator\\calculator\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Calculator||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|c:\\users\\a2685\\source\\repos\\calculator\\calculator\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|solutionrelative:calculator\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A288DDD-1608-4A3E-95B7-8E7D77704F8B}|Calculator\\Calculator.csproj|c:\\users\\a2685\\source\\repos\\calculator\\calculator\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|6185191f-1008-4fb2-a715-3a4e4f27e610"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\Form1.cs*",
+              "RelativeToolTip": "Calculator\\Form1.cs*",
+              "ViewState": "AgIAAJYAAAAAAAAAAAA+wKYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T06:45:34.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calcula.cs",
+              "DocumentMoniker": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\Model\\Calcula.cs",
+              "RelativeDocumentMoniker": "Calculator\\Model\\Calcula.cs",
+              "ToolTip": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\Model\\Calcula.cs",
+              "RelativeToolTip": "Calculator\\Model\\Calcula.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwEkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T06:36:02.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\Form1.cs [\u8A2D\u8A08]*",
+              "RelativeToolTip": "Calculator\\Form1.cs [\u8A2D\u8A08]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T06:34:05.016Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Calculator",
+              "DocumentMoniker": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\Calculator.csproj",
+              "RelativeDocumentMoniker": "Calculator\\Calculator.csproj",
+              "ToolTip": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\Calculator.csproj",
+              "RelativeToolTip": "Calculator\\Calculator.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-13T06:19:46.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Calculator\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\Form1.Designer.cs*",
+              "RelativeToolTip": "Calculator\\Form1.Designer.cs*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:57:53.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\App.config",
+              "RelativeDocumentMoniker": "Calculator\\App.config",
+              "ToolTip": "C:\\Users\\a2685\\source\\repos\\Calculator\\Calculator\\App.config",
+              "RelativeToolTip": "Calculator\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-12T06:47:21.186Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
