@@ -11,69 +11,95 @@ namespace Calculator.Model
 
     internal class Calcula
     {
-        public string memory_formula = "0" ;
-        public string formula = "0";
-        public List<string> formula_list = new List<string>() {"0"}; 
+        public string memory_formula = "0";
+        public string formula = "0",continue_calcula = "";
+        private bool operator_click = false; 
+        public List<string> formula_list = new List<string>() { "0" };
         [Obsolete]
         readonly Microsoft.JScript.Vsa.VsaEngine ve = Microsoft.JScript.Vsa.VsaEngine.CreateEngine();
-        public object Cal(){
-            string temp_formula = ""; 
-            for(int i = 0; i < formula_list.Count(); i++){
+        public object Cal()
+        {
+            string temp_formula = "";
+            for (int i = 0; i < formula_list.Count(); i++)
+            {
                 temp_formula += formula_list[i];
             }
+            if (formula_list.Count == 1)
+            {
+                temp_formula = temp_formula + continue_calcula;
+            }
+            else
+            {
+                continue_calcula = formula_list[1] + formula_list[2];
+            }
             formula_list.Clear();
+
             formula = (Microsoft.JScript.Eval.JScriptEvaluate(temp_formula, ve)).ToString();
-            formula_list.Add(formula); 
+            formula_list.Add(formula);
             return formula;
         }
-        public bool Judge_last_operator(){
-            try{
-                if (formula_list[formula_list.Count-1] == "+" || formula_list[formula_list.Count - 1] == "-" || formula_list[formula_list.Count - 1] == "*" || formula_list[formula_list.Count - 1] == "/")
+        public bool Judge_last_operator()
+        {
+            try
+            {
+                if (formula_list[formula_list.Count - 1] == "+" || formula_list[formula_list.Count - 1] == "-" || formula_list[formula_list.Count - 1] == "*" || formula_list[formula_list.Count - 1] == "/")
                 {
                     formula_list.Add("0");
                     return true;
                 }
-                
+
             }
-            catch{
+            catch
+            {
                 return false;
             }
             return false;
         }
-        public void add_formula_operator(string Operator){
-            if (!this.Judge_last_operator()){
-
+        public void add_formula_operator(string Operator)
+        {
+            if (!this.Judge_last_operator())
+            {
+                operator_click = true ;
                 formula_list.Add(Operator);
             }
-           
+            
+
         }
-        public void add_dot(){
-            if (formula_list[formula_list.Count()-1].Contains(".") == false ){
+        public void add_dot()
+        {
+            if (formula_list[formula_list.Count() - 1].Contains(".") == false)
+            {
                 formula_list[formula_list.Count() - 1] += ".";
             }
         }
-        public void Clear_Entry(){
-            formula_list[formula_list.Count() - 1] = "0"; 
+        public void Clear_Entry()
+        {
+            formula_list[formula_list.Count() - 1] = "0";
         }
-        public void memory_plus(string number){
+        public void memory_plus(string number)
+        {
             memory_formula += "+" + number;
-            memory_formula = (Microsoft.JScript.Eval.JScriptEvaluate(memory_formula, ve)).ToString(); 
+            memory_formula = (Microsoft.JScript.Eval.JScriptEvaluate(memory_formula, ve)).ToString();
         }
-        public void memory_minus(string number) {
+        public void memory_minus(string number)
+        {
             memory_formula += "-" + number;
             memory_formula = (Microsoft.JScript.Eval.JScriptEvaluate(memory_formula, ve)).ToString(); ;
         }
-        public void memory_recall(){
-            if (this.Judge_last_operator() == true){
-                formula_list.Add(memory_formula); 
+        public void memory_recall()
+        {
+            if (this.Judge_last_operator() == true)
+            {
+                formula_list.Add(memory_formula);
             }
-            else {
-                formula_list[formula_list.Count() - 1] = memory_formula; 
+            else
+            {
+                formula_list[formula_list.Count() - 1] = memory_formula;
             }
         }
         public void memory_clear()
         {
-            memory_formula = "0"; 
+            memory_formula = "0";
         }
     }
 
